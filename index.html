@@ -1,296 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your Name - Creative Developer Portfolio">
-    <title>Your Name | Creative Developer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Animated Background -->
-    <div class="background-animation">
-        <div class="gradient-orb orb-1"></div>
-        <div class="gradient-orb orb-2"></div>
-        <div class="gradient-orb orb-3"></div>
-    </div>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <span class="logo-bracket">&lt;</span>
-                YourName
-                <span class="logo-bracket">/&gt;</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="theme-toggle" id="themeToggle">
-                <span class="sun">☀️</span>
-                <span class="moon">🌙</span>
-            </div>
-        </div>
-    </nav>
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">👋 Welcome to my digital space</div>
-                <h1 class="glitch" data-text="I CREATE DIGITAL EXPERIENCES">
-                    I CREATE DIGITAL EXPERIENCES
-                </h1>
-                <p class="hero-subtitle">
-                    Full-stack developer crafting beautiful interfaces and 
-                    <span class="gradient-text">powerful applications</span>
-                </p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <span>Explore My Work</span>
-                        <span class="btn-arrow">→</span>
-                    </a>
-                    <a href="#contact" class="btn btn-glass">
-                        <span>Let's Talk</span>
-                    </a>
-                </div>
-                <div class="scroll-indicator">
-                    <div class="mouse"></div>
-                    <p>Scroll to explore</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">GET TO KNOW ME</span>
-                <h2>About Me</h2>
-            </div>
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website Anid - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!-- CUSTOM CURSOR -->
+         
+         <!--==================== HOME ====================-->
+         <section class="home section">
             
-            <div class="about-grid">
-                <div class="about-card">
-                    <div class="card-icon">💻</div>
-                    <h3>Developer</h3>
-                    <p>Passionate about writing clean, efficient code that solves real problems</p>
-                </div>
-                
-                <div class="about-card">
-                    <div class="card-icon">🎨</div>
-                    <h3>Designer</h3>
-                    <p>Creating beautiful, user-friendly interfaces with attention to detail</p>
-                </div>
-                
-                <div class="about-card">
-                    <div class="card-icon">🚀</div>
-                    <h3>Innovator</h3>
-                    <p>Always exploring new technologies and pushing creative boundaries</p>
-                </div>
-            </div>
-
-            <div class="skills-section">
-                <h3>Tech Stack</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <div class="skill-icon">⚛️</div>
-                        <span>React</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">📱</div>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🎨</div>
-                        <span>CSS/Sass</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🟢</div>
-                        <span>Node.js</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🐍</div>
-                        <span>Python</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🗄️</div>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🔥</div>
-                        <span>Firebase</span>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">☁️</div>
-                        <span>AWS</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">MY WORK</span>
-                <h2>Featured Projects</h2>
-            </div>
             
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card featured">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop" alt="Project 1">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link">View Live →</a>
-                                <a href="#" class="project-link">GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
-                        </div>
-                        <h3>E-Commerce Platform</h3>
-                        <p>Full-stack e-commerce solution with payment integration, inventory management, and real-time analytics dashboard</p>
-                    </div>
-                </div>
+         </section>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop" alt="Project 2">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link">View Live →</a>
-                                <a href="#" class="project-link">GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags">
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">D3.js</span>
-                        </div>
-                        <h3>Data Visualization Dashboard</h3>
-                        <p>Interactive analytics platform with custom charts and real-time data updates</p>
-                    </div>
-                </div>
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            
+         </section>
 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop" alt="Project 3">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link">View Live →</a>
-                                <a href="#" class="project-link">GitHub →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags">
-                            <span class="tag">React Native</span>
-                            <span class="tag">Firebase</span>
-                        </div>
-                        <h3>Social Media App</h3>
-                        <p>Mobile-first social platform with real-time messaging and content sharing</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            
+         </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="contact-content">
-                <div class="contact-text">
-                    <span class="section-label">LET'S CONNECT</span>
-                    <h2>Ready to bring your<br><span class="gradient-text">ideas to life?</span></h2>
-                    <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
-                    
-                    <div class="contact-info">
-                        <a href="mailto:your.email@example.com" class="contact-detail">
-                            <span class="contact-icon">📧</span>
-                            <div>
-                                <strong>Email</strong>
-                                <p>your.email@example.com</p>
-                            </div>
-                        </a>
-                        
-                        <a href="https://github.com/yourusername" target="_blank" class="contact-detail">
-                            <span class="contact-icon">💻</span>
-                            <div>
-                                <strong>GitHub</strong>
-                                <p>@yourusername</p>
-                            </div>
-                        </a>
-                        
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-detail">
-                            <span class="contact-icon">💼</span>
-                            <div>
-                                <strong>LinkedIn</strong>
-                                <p>/in/yourprofile</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="contact-visual">
-                    <div class="floating-card">
-                        <div class="card-content">
-                            <h4>Let's create something amazing together! 🚀</h4>
-                            <div class="stats">
-                                <div class="stat">
-                                    <strong>5+</strong>
-                                    <span>Years Experience</span>
-                                </div>
-                                <div class="stat">
-                                    <strong>50+</strong>
-                                    <span>Projects Completed</span>
-                                </div>
-                                <div class="stat">
-                                    <strong>100%</strong>
-                                    <span>Client Satisfaction</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+         <!--==================== WORK ====================-->
+         <section class="work section">
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <h3>Your Name</h3>
-                    <p>Building digital experiences, one line of code at a time.</p>
-                </div>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Your Name. Crafted with ❤️ and lots of ☕</p>
-            </div>
-        </div>
-    </footer>
+         </section>
 
-    <script src="script.js"></script>
-</body>
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+
+         </section>
+
+         <!--==================== TESTIMONIALS ====================-->
+         <section class="testimonials section">
+
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer grid">
+         
+      </footer>
+      
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== ANIME JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>
